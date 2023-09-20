@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-cel6
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/ci10t-776-0083-tenant/ci10t-776-0083-app/devfile-sample-cel6@sha256:d852a30c5e9b39101c355cff7a66f56bf75356964c4a042fc06b3e0279528553
+        name: my-nodejs
+        resources: {}
+status: {}
